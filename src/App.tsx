@@ -59,10 +59,12 @@ function App() {
           </div>
 
 
-          {/* Author line */}
-          <p className="text-sm text-gray-400">
-            Created and maintained by <span className="font-semibold text-white">Mike Hans</span>
-          </p>
+        <p className="text-sm text-gray-400">
+          Created and maintained by:
+          <br />
+          <span className="font-semibold text-white">Mike Hans</span>
+        </p>
+
 
           {/* Clickable email */}
           <p className="text-sm text-gray-400">
