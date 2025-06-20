@@ -80,6 +80,16 @@ export default function Origin() {
       <p>👉 <a href="https://gitmove.com">Visit GitMove.com</a></p>
       <p>💻 Or check out the repo (soon to be public)</p>
       <p><strong>GitMove — Git out of harm’s way.™</strong></p>
+
+      <div className="text-center mt-10">
+        <a
+          href="/"
+          className="px-6 py-2 rounded hover:bg-white hover:text-black transition border border-white bg-gray-800 text-white font-semibold"
+        >
+          ← Back to Home
+        </a>
+      </div>
+
       <p className="text-xs text-gray-500 italic mt-12 text-center">
         “GitMove”, “GitMove CLI”, “GitMove Pro”, “Git out of harm’s way”, and the GitMove logo are trademarks of Mike Hans.<br />
         All rights reserved. Unauthorized use of the brand, logo, or affiliated repositories is prohibited.

@@ -77,6 +77,14 @@ function App() {
             </a>
           </p>
 
+        <div className="mt-8">
+        <a
+          href="/origin"
+          className="px-6 py-2 rounded hover:bg-white hover:text-black transition border border-white bg-gray-800 text-white font-semibold"
+        >
+          Read the Origin Story →
+        </a>
+        </div>
 
         <hr className="border-gray-700 my-6 w-2/3 mx-auto" />
 
