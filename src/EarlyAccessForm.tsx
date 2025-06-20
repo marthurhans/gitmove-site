@@ -47,6 +47,14 @@ return (
             hover:bg-white hover:text-black hover:placeholder-black transition"
         />
         <input
+            type="text"
+            name="nickname"
+            autoComplete="off"
+            tabIndex={-1}
+            aria-hidden="true"
+            className="hidden"
+        />
+        <input
           type="email"
           name="email"
           placeholder="Your email"
