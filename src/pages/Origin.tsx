@@ -1,4 +1,37 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
+
+<Helmet>
+  <title>How I Lost My Git History in Dropbox – GitMove</title>
+  <meta
+    name="description"
+    content="GitMove lets you move, back up, or archive Git projects without breaking history — even across machines or file sharing tools like Dropbox."
+  />
+  <meta
+    name="keywords"
+    content="move git, git dropbox safe, backup git repo, git corruption, relocate git, archive git, use git in onedrive, move .git safely"
+  />
+
+  {/* Open Graph for sharing */}
+  <meta property="og:title" content="How I Lost My Git History in Dropbox – GitMove" />
+  <meta
+    property="og:description"
+    content="GitMove protects your repo history and lets you use Git even inside Dropbox or OneDrive without damage."
+  />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://gitmove.com/origin" />
+  <meta property="og:image" content="https://gitmove.com/og-preview.jpg" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How I Lost My Git History in Dropbox – GitMove" />
+  <meta
+    name="twitter:description"
+    content="Move your Git repo safely — even inside Dropbox. Read the origin story of GitMove."
+  />
+  <meta name="twitter:image" content="https://gitmove.com/og-preview.jpg" />
+</Helmet>
+
 
 export default function Origin() {
   return (
