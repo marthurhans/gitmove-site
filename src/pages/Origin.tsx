@@ -34,7 +34,37 @@ import { Helmet } from 'react-helmet';
 
 
 export default function Origin() {
-  return (
+return (
+  <>
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline:
+          "How I Lost My Git History in Dropbox – and Built GitMove to Fix It",
+        description:
+          "GitMove protects your Git history, lets you move repos safely — even offline — and makes Git usable anywhere, including Dropbox or OneDrive",
+        image: "https://gitmove.com/og-preview.jpg",
+        author: {
+          "@type": "Person",
+          name: "Mike Hans",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "GitMove",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://gitmove.com/favicon-512x512.png",
+          },
+        },
+        datePublished: "2025-06-18",
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://gitmove.com/origin",
+        },
+      })}
+    </script>
+
     <main className="bg-gray-950 min-h-screen text-white px-6 py-10">
         <article className="prose prose-invert lg:prose-xl max-w-4xl mx-auto">
       <h1>How I Lost My Git History in Dropbox — and Built GitMove™ to Fix It</h1>
@@ -117,7 +147,7 @@ export default function Origin() {
       <div className="text-center mt-10">
         <a
           href="/"
-          className="px-6 py-2 rounded hover:bg-white hover:text-black transition border border-white bg-gray-800 text-white font-semibold"
+          className="no-underline px-6 py-2 rounded hover:bg-white hover:text-black transition border border-white bg-gray-800 text-white font-semibold"
         >
           ← Back to Home
         </a>
@@ -129,5 +159,6 @@ export default function Origin() {
         </p>
        </article>
     </main>
+    </>
   );
 }
